@@ -61,5 +61,5 @@ view model =
         , input [ placeholder "Preis in Euro eingeben", value model.price, onInput ChangePrice ] []
         ]
       ]
-    , div [] [ text ((PizzaPricePerSquareMeter.calc model)) ]
+    , div [] [ text (PizzaPricePerSquareMeter.calc model) ]
     ]
